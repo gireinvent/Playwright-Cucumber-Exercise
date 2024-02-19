@@ -12,4 +12,5 @@ Feature: Product Feature
    |sorting            |category|
    |Price (low to high)|price|
    |Price (high to low)|priice|
+
    
