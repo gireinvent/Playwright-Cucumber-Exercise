@@ -1,6 +1,7 @@
 {
   "scripts": {
-    "test": "cucumber-js --format json:report.json --exit",
+    "test": "cucumber-js features/*.feature --format json:report.json --exit",
+    "test:product": "cucumber-js features/product.feature --format json:report.json --exit",
     "report": "node generate-report.js"
   },
   "devDependencies": {
